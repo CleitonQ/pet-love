@@ -19,3 +19,10 @@ header {
     padding-top: 24px;
     padding-bottom: 24px;
 }
+
+header nav a {
+    color: #ffffff;
+    font-weight: 600;
+    padding: 32px;
+    text-decoration: none;
+}
