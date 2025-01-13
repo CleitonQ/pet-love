@@ -34,3 +34,15 @@ header nav a {
     padding: 24px 80px 128px 80px;
     position: relative;
 }
+
+h1,
+h2 {
+    font-weight: 600px;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+p {
+    line-height: 150px;
+    margin-bottom: 32px;
+}
