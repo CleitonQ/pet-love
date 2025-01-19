@@ -91,3 +91,25 @@ h2 {
 #farmacia img {
     margin: 64px auto;
 }
+
+#farmacia .paragrafo {
+    max-width: 958px;
+    margin: 8 auto;
+}
+
+#duvidas {
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    padding: 64px 80px;
+}
+
+.duvida {
+    border: 2px solid #ff725e;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.duvida img {
+
+}
