@@ -137,3 +137,24 @@ footer {
     padding: 64px 80px;
 }
 
+
+footer img,
+footer .titulo {
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+    max-width: 350px;
+}
+
+footer p a {
+    color: #ff725e;
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #263138;
+    color: #ffffff;
+    padding: 24px;
+    text-align: center;
+}
+
