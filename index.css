@@ -133,6 +133,7 @@ h2 {
 footer {
     background-color: rgba(red, green, blue, 0.25);
     display: flex;
+    justify-content: space-between;
     gap: 80px;
     padding: 64px 80px;
 }
@@ -143,6 +144,18 @@ footer .titulo {
     display: block;
     margin-bottom: 16px;
     text-decoration: none;
+    max-width: 350px;
+}
+
+footer nav a {
+    color: #263138;
+    display: block;
+    margin-bottom: 16px;
+    text-decoration: none;
+}
+
+footer p {
+    margin-bottom: 16px;
     max-width: 350px;
 }
 
@@ -158,3 +171,6 @@ footer p a {
     text-align: center;
 }
 
+#copyright a {
+    color: #ff725e;
+}
