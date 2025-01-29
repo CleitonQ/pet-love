@@ -28,7 +28,7 @@ header nav a {
 }
 
 #inicio {
-    display: center;
+    display: flex;
     align-items: center;
     gap: 32px;
     padding: 24px 80px 128px 80px;
@@ -121,7 +121,14 @@ h2 {
     right: 24px;
 }
 
-
+.duvida .paragrafo {
+    border-right: 1px solid #ff725e;
+    border-bottom: 1px solid #ff725e;
+    border-left: 1px solid #ff725e;
+    border-radius: 0 0 8px 8px;
+    margin-top: -8px;
+    padding: 24px;
+}
 
 footer {
     background-color: rgba(red, green, blue, 0.25);
