@@ -14,10 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 24px 80px;
 }
 
 header nav a {
@@ -37,23 +34,22 @@ header nav a {
 
 h1,
 h2 {
-    font-weight: 600px;
+    font-weight: 600; /* Removido o px */
     font-size: 32px;
     margin-bottom: 32px;
 }
 
 .paragrafo {
-    line-height: 150px;
+    line-height: 1.5; /* Corrigido para um valor adequado */
     margin-bottom: 32px;
 }
 
 .botao {
-   background-color: chocolate; 
+    background-color: chocolate; 
     border-radius: 8px;
     color: #ffffff;
-   /* vertical, horizontal */
-   padding: 16px 32px;
-   text-decoration: none;
+    padding: 16px 32px; /* vertical, horizontal */
+    text-decoration: none;
 }
 
 .botao-transparente {
@@ -94,7 +90,7 @@ h2 {
 
 #farmacia .paragrafo {
     max-width: 958px;
-    margin: 8 auto;
+    margin: 8px auto; /* Corrigido para 8px auto */
 }
 
 #duvidas {
@@ -131,13 +127,12 @@ h2 {
 }
 
 footer {
-    background-color: rgba(red, green, blue, 0.25);
+    background-color: rgba(255, 114, 94, 0.25); /* Corrigido para rgba com valores */
     display: flex;
     justify-content: space-between;
     gap: 80px;
     padding: 64px 80px;
 }
-
 
 footer img,
 footer .titulo {
