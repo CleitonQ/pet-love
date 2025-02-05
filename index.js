@@ -1,5 +1,7 @@
 var elementosDuvida = document.querySelectorAll('.duvida')
 
 elementosDuvida.forEach(function (duvida){
-    duvida.addEventL
-}
+    duvida.addEventListener('click', function(){
+        duvida.classList.toggle('ativa')
+    })
+})
