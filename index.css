@@ -34,13 +34,13 @@ header nav a {
 
 h1,
 h2 {
-    font-weight: 600; /* Removido o px */
+    font-weight: 600;
     font-size: 32px;
     margin-bottom: 32px;
 }
 
 .paragrafo {
-    line-height: 1.5; /* Corrigido para um valor adequado */
+    line-height: 150%;
     margin-bottom: 32px;
 }
 
@@ -90,7 +90,7 @@ h2 {
 
 #farmacia .paragrafo {
     max-width: 958px;
-    margin: 8px auto; /* Corrigido para 8px auto */
+    margin: 8px auto;
 }
 
 #duvidas {
